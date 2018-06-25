@@ -11,18 +11,7 @@
 
 </head>
 <body>
-
-
-    @foreach($all_news as $news)
-        <article>
-            {{--<img src="cache/{!! $news->images !!}" alt="">--}}
-            <h2>{!! $news->name !!}</h2>
-            <h3>{!! $news->post !!}</h3>
-            <p>{!! $news->all_post !!}</p>
-            <p>Опубликовано: {!! $news->created_at !!} </p>
-            <p>Теги: </p>
-        </article>
-    @endforeach
+123
 
 
 </body>
